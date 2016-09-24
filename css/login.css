@@ -1,0 +1,64 @@
+/*============清空默认样式==============*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	overflow: hidden;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+ul,li,dl,dt,dd{
+	list-style: none;
+}
+img{border: 0;}
+/*=============设置公共样式=============*/
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*================header-login=================*/
+#header-login {height: 104px;line-height: 104px;background: #f2f2f2;}
+#header-login .logo{margin-top:21px ;margin-right: 29px;}
+#header-login .reg{font-size:26px;height: 53px;border-left:2px solid #ccc;line-height: 53px;margin-top: 29px;padding-left: 30px;}
+#banner-login .banner{height: 480px; background: url(../img/login-banner.jpg) no-repeat left center;}
+#banner-login .banner div{margin-left:20px ; position: relative;}
+#banner-login .banner div.n1{ height: 40px; width: 294px;background: #f9f9f9;line-height: 40px; margin-bottom: 10px;}
+#banner-login .banner div.n1 input.inp1{width:254px;height: 40px; line-height: 40px; border: 0;background: #f9f9f9;padding-left:40px; background: url(../img/login01.jpg) no-repeat 15px;outline: none;}
+#banner-login .banner div.n1 input.inp2{height: 40px;width: 254px; line-height: 40px; border: 0;background: #f9f9f9;padding-left:40px;background: url(../img/login02.jpg) no-repeat 15px;outline: none;}
+#banner-login .banner div.n2{display:inline-block;height: 40px; width: 199px;background: #f9f9f9;line-height: 40px; margin-bottom: 10px;}
+#banner-login .banner div.n2 input.inp3{display:inline-block;width:160px;height: 40px; line-height: 40px; border: 0;background: #f9f9f9;padding-left:40px;background: url(../img/login03.jpg) no-repeat 15px;outline: none;}
+#banner-login .banner .yzm{width: 80px;height: 36px;border: 1px solid #ccc;margin-left: 30px;position: absolute; top: 180px; right: 26px;line-height: 36px; text-align: center;font-size: 16px;color: #00f;font-style: italic;}
+#banner-login .banner div.n2 input.inp4{display:inline-block;width:160px;height: 40px; line-height: 40px; border: 0;background: #f9f9f9;padding-left:40px; background: url(../img/login04.jpg) no-repeat 15px;outline: none;}
+#banner-login .banner .syzm{width: 80px;height: 36px;border: 1px solid #ccc; background: #e5004b;margin-left: 30px;position: absolute; top: 230px; right: 26px;line-height: 36px; color: #fff;text-align: center;}
+#footer {height: 120px;background: #f3f3f3;text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

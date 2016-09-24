@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎登录</title>
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script src="js/cookie.js"></script>
+		<script src="js/login.js"></script>                        
+		<link rel="stylesheet" href="css/login.css" />
+		<script >
+			$(function(){
+				$(".reg-bn .bn1 a").click(function(){
+					$(".reg-bn1").css({"display":"block"})
+					$(".reg-bn").css({"display":"none","right":"0px"})
+					$(".reg-bn1").animate({"right":"100px"},1000,function(){
+						$(".reg").html("欢迎登录")
+					})
+				})
+				
+				$(".reg-bn1 .bn1 a").click(function(){
+					$(".reg-bn").css({"display":"block"})
+					$(".reg-bn1").css({"display":"none","right":"0px"})
+					$(".reg-bn").animate({"right":"100px"},1000,function(){
+						$(".reg").html("欢迎注册")
+					})
+				})
+				if(getCookie("123")){
+					$(".reg-bn1").css({"display":"block"})
+					$(".reg-bn").css({"display":"none","right":"0px"})
+					$(".reg-bn1").animate({"right":"100px"},1000,function(){
+						$(".reg").html("欢迎登录")
+					})
+				}
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header-login">
+			<div class="w">
+				<div class="l logo"><a href="index.html"><img src="img/login-logo.jpg"/></a></div>
+				<div class="l reg">欢迎注册</div>
+			</div>
+		</div>
+		<div id="banner-login" >
+			<div class="banner" style="position: relative; ">
+				<div class="reg-bn" style="height: 392px; width: 342px;position: absolute; right: 100px; top: 50px; border: 2px solid #ccc; background: #fff;">
+					<div class="bn1">
+						<span style="display:inline-block; font-size: 18px;padding-right:130px;height: 50px; line-height: 76px;"><b>用户注册</b></span>
+						<span style="color: #afafaf;">已有账号？</span><a href="javascript:;">立即登录</a>
+					</div>
+					<div class="tishi" style="height: 30px; line-height: 36px;color: #f22;" ></div>
+					<div class="name n1">	
+						<input class="inp1" type="text" placeholder="邮箱、手机号"/>
+					</div>
+					<div class="name n1">
+						<input class="inp2" type="password" placeholder="6-16位字符，必须包含英文字母和数字"/>
+					</div>
+					<div class="name n2" >	
+						<input class="inp3" type="text" placeholder="输入验证码"/>
+					</div>
+					<a href="javascript:;" class="yzm" ></a>
+					<div class="name n2" >	
+						<input class="inp4" type="text" placeholder="输入手机验证码"/>
+					</div>
+					<a href="javascript:;" class="syzm">获取验证码</a>
+					<div class="name n3" style="height: 30px; ">
+						<input type="checkbox"  checked="checked"/>   我已阅读并同意<a href="#">《速普商城用户协议》</a>
+					</div>
+					<div class="name n1 zhuce" style="background: #e5004b;font-size: 20px; color: #fff;text-align: center; line-height: 40px; cursor: pointer;">注册</div>
+				</div>
+				
+				
+				<div class="reg-bn1" style="height: 392px; width: 342px;position: absolute; right: 0px; top: 50px; border: 2px solid #ccc; background: #fff; display: none;">
+					<div class="bn1">
+						<span style="display:inline-block; font-size: 18px;padding-right:100px;height: 50px; line-height: 76px;"><b>用户登录</b></span>
+						<span style="color: #afafaf;">没有速普账号？</span><a href="javascript:;" >立即注册</a>
+					</div>
+					<div class="tishi" style="height: 30px; line-height: 36px;color: #f22;" ></div>
+					<div class="name n1">	
+						<input class="inp1" type="text" placeholder="邮箱、手机号、账号"/>
+					</div>
+					<div class="name n1">
+						<input class="inp2" type="password" placeholder="密码"/>
+					</div>
+					<div class="name n2 huaps" style="width: 294px; background: #f29dba;position: relative;">	
+						<div class="hua" >
+							<p style="color: #fff;text-align: center;">按住滑块拖动到最后边</p>
+							<span id="spanhua" style="display:inline-block;width: 52px; height:34px;background: url(img/hua.jpg) no-repeat left;z-index: 2; position: absolute;left: -15px; top: 3px;"></span>
+						</div>
+					</div>
+					
+					<div class="name n3" style="height: 40px; line-height:36px;color: #999;">
+						<input type="checkbox" />  记住用户名 &nbsp;
+						<input type="checkbox"  checked="checked" />   自动登录<a href="#" class="r"style="padding-right: 25px;color: #CCCCCC;">忘记密码了？</a>
+					</div>
+					<div class="name n1 denglu" style="background: #e5004b;font-size: 20px; color: #fff;text-align: center; line-height: 40px; cursor: pointer; margin-bottom: 20px;">登录</div>
+					<div class="name n " style="height: 30px; line-height: 30px;">
+						<span class="l">合作账户登录：  </span><img class="l" src="img/zfb.jpg"/> <img class="l" src="img/wb.jpg" />
+					</div>
+				</div>
+			
+			</div>
+	
+		</div>
+		<div id="footer">
+			<div class="w">
+				<p class="p1" style="height: 62px; line-height: 46px; color: #c8c8b9;">Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号</p>
+				<div class="ft">
+					<img src="img/zhizhao.png" />
+					<img src="img/cnnic.png" />
+				</div>
+				 
+			</div>
+		</div>
+	</body>
+</html>

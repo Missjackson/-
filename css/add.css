@@ -1,0 +1,80 @@
+/*============清空默认样式==============*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+ul,li,dl,dt,dd{
+	list-style: none;
+}
+/*=============设置公共样式=============*/
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*================header===============*/
+#header .top .top-welcome{height: 27px;background: #333;color: #dbdbdb;line-height: 27px;}
+#header .top .login-f1{width: 330px;}
+#header .top .login-f1 a:hover{color: #fff;}
+#header .top .nav-top a{color: #DBDBDB;}
+#header .top .nav-top .mysp span{display:inline-block;width:7px;height:6px;background: url(../img/top-s.jpg) no-repeat;}
+#header .top .nav-top .app span{display:inline-block;width:7px;height:6px;background: url(../img/top-s.jpg) no-repeat;}
+#header .top .nav-top .cont span{display:inline-block;width:7px;height:6px;background: url(../img/top-s.jpg) no-repeat;}
+#header .top .nav-top .l{padding-right: 32px;}
+#header .top .nav-top .l.nav-box{padding-right: 26px;}
+
+
+#header .top .top-sea{height:70px;padding-top: 36px;padding-bottom: 20px;}
+#header .top .top-sea h3{margin-right: 120px;}
+#header .top .top-sea .r.gwcar ul {padding-top: 20px;}
+#header .top .top-sea .r.gwcar ul li a{float:left; height:28px;padding:0 30px; background: #d5d5d5; color: #fff;font-size: 14px; line-height: 28px;}
+
+/*====================con===========================*/
+#con{ background: #f3f3f3;}
+#con .con_top{height: 62px; line-height: 62px; font-size: 14px; color: #666666;}
+#con .con_top p a{font-size: 14px; color: #666666;}
+#con .con_top2 ul li{height: 45px; line-height: 45px; background: #fff;}
+#con .con_top2 ul li span{ display: inline-block;}
+#con .con_top2 ul li span.p1{text-align: center;}
+#con .con_top3{height: 43px; line-height: 43px;}
+#con .con_top3 span{float: left;}
+#con .con_top4{ background: #fff;}
+#con .con_top4 ul li span{ display: inline-block; }
+#con .con_top4 ul li span.p1{text-align: center;}
+#con .con_top4_list{height: 85px; background: #fffbf0;margin-left: 5px;padding-top: 30px;}
+#con .con_top4_all{text-align: right; padding-top: 20px;height: 100px; background: #fff;}
+#con .con_top4_all ul li{width: 180px; padding-right: 10px;line-height: 26px;}
+#con .con_top4_all span{width: 100px;height: 20px; color: #E5004A; font-weight: 600;}
+#con .con_top5 {height: 42px; line-height: 42px; margin-top: 10px; background: #fff;}
+#con .con_top5 ul.r{height: 42px;}
+#con .con_top5 ul.l li{padding-left: 20px;}
+#con .con_top5 ul.l li a{color: #333;}
+#con .con_top5 ul.l li a:hover{color: #E5004A;}
+#con .con_top5 div.r li{font-size: 20px;padding-left: 35px;}
+#con .con_top5 div.r li span{color: #E5004A;}
+#con .con_top4 .p1_2 a{display: inline-block;height: 20px; width: 20px;border: 1px solid #ccc;text-align: center;line-height: 20px;font-size:14px; color: #333;font-size: 16px; background: #fff;} 
+#con .con_top4 .p1 input{width: 50px;height: 18px;text-align: center;}
+
+#footer .footer-bott {height: 133px; background: #f3f3f3; text-align: center;color: #666; border-top: 1px solid #ccc;}
+#footer .footer-bott .w ul{margin-left: 38%;}
+#footer .footer-bott .w ul li a{padding:0 10px; border-right:1px solid #666 ; color: #666;}
+#footer .footer-bott .w ul li a:hover{color: #eb125e;}
+
+
+
+
+

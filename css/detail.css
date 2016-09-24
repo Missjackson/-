@@ -1,0 +1,61 @@
+#header .adv-right{display: none;}
+#header .menu-nav{display: none;}
+#con {background: #efefef; height: 14693px;}
+#con .lc_top a{ color: #333;}
+#con .lc_top a:hover{color: #E5004B;}
+#con .left_top ul{width: 420px;}
+#con .left_top ul li{position: absolute;}
+#con .left_top ul li img{width: 420px; height: 420px;}
+#con .big_pic ul li img{position: absolute;}
+#con .left_bott{height: 90px; margin-top: 20px;}
+#con .lc_top2_right h2{height: 36px; color: #333;}
+#con .left_bott ul li{border: 1px solid #ccc; text-align: center;width: 61px;height: 61px;padding: 2px;margin-left: 10px;}
+#con .cl{height: 94px;width:729px;background: red;}
+#con .cl dl{display: block; height: 47px; line-height: 47px;}
+#con dl{padding-left: 10px; display: block;}
+#con  dt{float: left; width: 110px;}
+#con  dd{float: left;}
+#con .one{height: 50px; width: 729px;}
+#con .one1 a{display:inline-block;height: 37px; width: 37px;border: 1px solid #ccc;line-height: 37px; text-align: center; color: #333;}
+#con .one2 a{display:inline-block;height: 37px; width: 23px;border: 1px solid #ccc;line-height: 37px; text-align: center; color: #333; padding:0 3px;}
+#con .one3 a{display: inline-block;height: 34px; width: 30px;border: 1px solid #ccc;text-align: center;line-height: 34px;font-size:14px; color: #333;font-size: 16px;}
+#con .one3 input{display: inline-block;height: 34px; border: 1px solid #ccc;border-left:0;border-right: 0;text-align: center;font-size: 16px;}
+
+#con .lc_list li{height: 30px;}
+#con .lc_list li a:hover{color: #E5004A;}
+
+#con .lc_b_left_bott ul li{height: 260px; border-bottom:1px solid #ccc ;cursor: pointer;}
+#con .lc_b_left_bott ul li img{display:block;margin-left: -10px;}
+#con .lc_b_left_bott ul li p{width: 180px;}
+#con .lc_b_left_bott ul li span{color: #E5004A; font-size: 14px; font-weight: 600;}
+#con .lc_b_right{margin-left: 9px;}
+#con .lc_b_right .remen li{width: 320px; height: 127px; padding-left: 5px;}
+#con .lc_b_right .remen li img{width: 100%; height: 127px;}
+#con .lc_r_bott ul.lc_r_bott_list li{width: 128px; height: 34px; background: #ccc;text-align: center;line-height: 34px; font-size: 14px; border-right: 1px solid #fff;}
+#con .lc_r_bott td{padding-left: 45px;}
+
+#con .zhanshi li img{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

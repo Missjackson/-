@@ -1,0 +1,17 @@
+#header .adv-right{display: none;}
+#header .menu-nav{display: none;}
+#con{background: #efefef;}
+#con .lc_top a{ color: #333333;}
+#con .lc_r_top dd ul li{padding-right: 10px;}
+#con .lc_top a:hover{ color: #E5004A;}
+#con .lc_bottom .lc_b_left{height: 80px;width: 210px;background: #fff;}
+#con .lc_bottom{height: 1320px;}
+#con .lc_r_bott{height: 1224px;width: 980px;margin-left: 10px;}
+#con .lc_r_bott dl{float: left; width: 235px; height: 378px; margin-right: 10px; background: #fff ;margin-bottom:10px; padding-top: 20px; cursor: pointer;}
+#con .lc_r_bott dt{padding-left: 18px;}
+#con .lc_r_bott dd{padding-left: 18px;}
+#con .lc_r_bott dd div{margin-top: 15px;}
+#con .lc_r_bott dd .bsale{font-size: 16px; color: #E5004A;}
+#con .lc_r_bott dd .bsale span{ font-size: 10px; color: #999999;text-decoration: line-through;}
+#con .lc_r_bott dd input{width: 50px;height: 30px;float: left;}
+#con .lc_r_bott dd a{display:inline-block; float:left;width: 70px; height: 30px;background: #CCCCCC;margin-left: 10px;text-align: center;line-height: 30px; color: #666666; cursor: pointer;}
